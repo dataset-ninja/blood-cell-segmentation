@@ -1,0 +1,1 @@
+Blood Cell Segmentation is under [MIT](https://spdx.org/licenses/MIT.html) license.
