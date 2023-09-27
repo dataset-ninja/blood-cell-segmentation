@@ -10,3 +10,4 @@ BBC041Seg consists of ground truth masks of different cell types from more than 
 
 3. Authors make the dataset publicly available to provide a platform for researchers to focus more on generalized cell segmentation methods that are more clinically acceptable. Dataset is available at [GitHub](https://github.com/Deponker/Blood-cell-segmentation-dataset).
 
+A total of 1328 images are available. Out of that, Jeet B Lahiri separated the *train* and *test* sets with 1169 images and 159 images respectively.

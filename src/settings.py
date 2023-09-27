@@ -53,13 +53,13 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.sciencedirect.com/science/article/abs/pii/S0040816621001695"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle with splits":"https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask/data","GitHub":"https://github.com/Deponker/Blood-cell-segmentation"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle Source":"https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask/data","GitHub":"https://github.com/Deponker/Blood-cell-segmentation"}
 
 CITATION_URL: Optional[str] = "https://github.com/Deponker/Blood-cell-segmentation-dataset#citation"
 AUTHORS: Optional[List[str]] = ["Deponker Sarker Depto", "Shazidur Rahman", "Md. Mekayel Hosen", "Mst Shapna Akter", "Tamanna Rahman Reme", "Aimon Rahman", "Hasib Zunai", "M. Sohel Rahman", "M.R.C.Mahdy"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["North South University", "Concordia University", "Bangladesh University of Engineering and Technology"]
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["http://www.northsouth.edu/", "https://www.concordia.ca/", "https://www.buet.ac.bd/web/#/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
