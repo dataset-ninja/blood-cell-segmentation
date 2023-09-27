@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "BBBC041Seg"
 PROJECT_NAME_FULL: str = "BBBC041Seg: Automatic Segmentation Of Blood Cells From Microscopic Slides"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
