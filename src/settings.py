@@ -20,11 +20,11 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.MIT()
+LICENSE: License = License.MIT(source_url="https://github.com/Deponker/Blood-cell-segmentation#license")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical(is_used=False),Research.Biomedical(is_used=False)]
 CATEGORY: Category = Category.Biology(extra=Category.Medical())
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(),CVTask.SemanticSegmentation(),CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2021-04-24"  # e.g. "YYYY-MM-DD"
@@ -53,7 +53,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.sciencedirect.com/science/article/abs/pii/S0040816621001695"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle Source":"https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask/data","GitHub":"https://github.com/Deponker/Blood-cell-segmentation"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Kaggle":"https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask/data"}
 
 CITATION_URL: Optional[str] = "https://github.com/Deponker/Blood-cell-segmentation-dataset#citation"
 AUTHORS: Optional[List[str]] = ["Deponker Sarker Depto", "Shazidur Rahman", "Md. Mekayel Hosen", "Mst Shapna Akter", "Tamanna Rahman Reme", "Aimon Rahman", "Hasib Zunai", "M. Sohel Rahman", "M.R.C.Mahdy"]
