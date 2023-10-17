@@ -1,6 +1,6 @@
 Dataset **BBBC041Seg** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/1/Ze/QoIiKTduskyZATcl9K20Md8X3SBueAyyol23jnK3hfrw0EnWyhza74MFHYOf8SMh5eR1Mc47RUvYm27chsuTSftdTcG7OE1LWO0hBp1lQWZa4fz3VdyMPaK705Y5.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/5/d/wG/tVGrmfB73sbkA1BbmcPJNdOwVuesDmQLHpiHf6a5sFbEGSMFF2VHFjM3UKZPoDdzIeLR62qgb7HyeHikCcti4MoDWvUFbw5RKKef6n1xJHXotmK43WF4Fyw7nUcB.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
